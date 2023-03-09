@@ -1,4 +1,4 @@
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Home =()=>{
     return (
@@ -11,7 +11,7 @@ const Home =()=>{
                 style={({ isActive })=> isActive ? {backgroundColor: 'red'}:{backgroundColor: 'pink', color:'black'}}
             >PROFILE</NavLink>
 
-            <Outlet/>
+            
         </>
 
     )
